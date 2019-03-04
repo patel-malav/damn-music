@@ -1,0 +1,16 @@
+{
+    "title":"DaMn-Music",
+    "url":"http://localhost/DaMn-Music/",
+    "version":"v.1.0",
+    "path":{
+        "includes":"includes/",
+        "css":"css/",
+        "js":"js/",
+        "resource":"resources/",
+        "components":"components/",
+        "data":"data/",
+        "images":"data/images/",
+        "songs":"data/songs/"
+    },
+    "authors":["malav","dishant"]
+}

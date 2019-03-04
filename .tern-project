@@ -1,0 +1,11 @@
+{
+  "ecmaVersion": "5",
+  "libs": [
+    "browser"
+  ],
+  "loadEagerly": [],
+  "dontLoad": [
+    "node_modules/**"
+  ],
+  "plugins": {}
+}

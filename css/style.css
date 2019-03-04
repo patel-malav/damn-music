@@ -1,0 +1,329 @@
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+@media (min-width: 500px) {
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+header, main, footer {
+    box-shadow: 20px 20px 50px 15px grey;
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+}
+
+header {
+    margin-top: 1rem;
+    height: 30%;
+}
+
+main {
+    margin-top: 6rem;
+    height: 105%;
+}
+
+footer {
+    margin-top: 6rem;
+    margin-bottom: 8rem;
+    height: 10%;
+}
+
+table * {
+    font-size: 24px;
+    align-content: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+th {
+    color: red;
+}
+
+td {
+    width: 100%;
+}
+
+h2 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+/* h4 {
+    text-transform: capitalize;
+} */
+
+h6 {
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+p {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+span {
+    color: red;
+    text-transform: capitalize;
+}
+
+fieldset {
+    margin-top: 50px;
+}
+
+@-webkit-keyframes animate-stripes {
+    100% {
+        background-position: -100px 0px;
+    }
+}
+
+@keyframes animate-stripes {
+    100% {
+        background-position: -100px 0px;
+    }
+}
+
+progress[value] {
+    width: 350px;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress[value]::-webkit-progress-value {
+    background-image:
+        -webkit-linear-gradient(-45deg,
+        transparent 33%, rgba(0, 0, 0, .1) 33%,
+        rgba(0, 0, 0, .1) 66%, transparent 66%),
+        -webkit-linear-gradient(top,
+        rgba(255, 255, 255, .25),
+        rgba(0, 0, 0, .25)),
+        -webkit-linear-gradient(left, #ff0, #dd0);
+    border-radius: 2px;
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+    -webkit-animation: animate-stripes 5s linear infinite;
+    animation: animate-stripes 5s linear infinite;
+}
+
+#information, #content, #player, #foot {
+    height: 100%;
+}
+
+#content {
+    overflow-y: auto;
+}
+
+#initial_content {
+    margin-top: 25px;
+}
+
+/*
+ * player Css And Styling
+*/
+#player_inital_info {
+    margin-top: 50px;
+}
+
+#logout_button {
+    font-size: 14px;
+    text-decoration: underline;
+    text-align: center;
+    width: 50px;
+}
+
+#logout_button:hover {
+    background-color: red;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#player_meta {
+    height: 65%;
+}
+
+#player_meta h2 {
+    font-size: 54px;
+    color: red;
+    margin-bottom: 0px;
+}
+
+#player_song_meta, #player_song_meta img {
+    height: 100%;
+}
+
+#player_song_meta img {
+    border: 1px solid red;
+    padding: 5px;
+}
+
+#player_controls {
+    height: 35%;
+    padding-top: 1rem;
+}
+
+/*
+ * Information Css And Styling
+*/
+#information_image {
+    height: 40%;
+    margin: 1.5rem 2rem 1rem;
+}
+
+#information_meta {
+    height: 50%;
+    margin: 1.5rem 2rem 1rem;
+}
+
+#information_meta * {
+    margin: 10px 0px;
+    padding: 0px;
+}
+
+#information_image img {
+    height: 100%;
+    width: 100%;
+    border: 1px solid red;
+}
+
+#information_genres th {
+    font-size: 42px;
+    width: 100%;
+}
+
+#information_genres td:hover {
+    cursor: pointer;
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+
+/*
+ * Random Spinner Css And Styling
+*/
+.random_spinner {
+    height: 35%;
+}
+
+.random_spinner div {
+    height: 98%;
+}
+
+.play_img {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    visibility: hidden;
+}
+
+/*
+ * Song Spinner Css And Styling
+*/
+/*
+
+#song_spinner > div {
+    height: 100%;
+}
+
+#song_spinner > div > div {
+    height: 46%;
+    margin-top: 2rem;
+} */
+/*
+ * Spinner Element Css And Styling
+*/
+.song_img {
+    width: 128px;
+    height: 128px;
+}
+
+.spinner_ele {
+    position: relative;
+    height: 100%;
+}
+
+.spinner_ele:hover {
+    cursor: pointer;
+}
+
+.spinner_ele:hover .play_img {
+    visibility: visible;
+}
+
+.spinner_ele:hover .song_img {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+/* .song_link {
+    height: 80%;
+}
+
+.song_image {
+    height: 85%;
+    width: 100%;
+    border: 1px solid red;
+    position: center;
+}  */
+.song_name, .song_desp {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.5rem;
+    height: 20%;
+}
+
+/*
+ * Footer Css And Styling
+*/
+#foot p {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* CUSTOM CHROME SCROLL BAR */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ff0000;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+/* Larger than tablet */
+
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
