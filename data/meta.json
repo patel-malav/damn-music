@@ -1,0 +1,322 @@
+{
+    "warning": "All the Tunes are repectfully owned by the makers",
+    "genre_count": 11,
+    "genre": [{
+            "name": "anime",
+            "images_path": "../data/images/anime/",
+            "file_path": "../data/songs/anime/",
+            "songs_count": 12,
+            "list": [{
+                    "id": 1,
+                    "name": "bleach OP",
+                    "singer": null,
+                    "lyricist": null,
+                    "movie": "bleach",
+                    "length": "00:00:29",
+                    "image": "bleach.jpg",
+                    "filename": "bleach.mp3"
+                },
+                {
+                    "id": 2,
+                    "name": "death note instrumental",
+                    "singer": null,
+                    "lyricist": null,
+                    "movie": "death note",
+                    "length": "00:00:29",
+                    "image": "deathnote.jpg",
+                    "filename": "death_note.mp3"
+                },
+                {
+                    "id": 3,
+                    "name": "fairytail theme",
+                    "singer": null,
+                    "lyricist": null,
+                    "movie": "fairytail",
+                    "length": "00:00:18",
+                    "image": "fairy_tail.png",
+                    "filename": "fairy_tail.mp3"
+                },
+                {
+                    "id": 4,
+                    "name": "full metal alchemist",
+                    "singer": null,
+                    "lyricist": null,
+                    "movie": "full metal alchemist",
+                    "length": "00:00:29",
+                    "image": "full_metal_alchemist.jpg",
+                    "filename": "full_metal_alchemist.mp3"
+                },
+                {
+                    "id": 5,
+                    "name": "kuroko no basket OP",
+                    "singer": null,
+                    "lyricist": null,
+                    "movie": null,
+                    "length": "00:00:29",
+                    "image": "kuroko_no_basket.jpg",
+                    "filename": "kuroko_no_basket.mp3"
+                },
+                {
+                    "id": 6,
+                    "name": "naruto instrumental",
+                    "singer": null,
+                    "lyricist": null,
+                    "movie": "naruto",
+                    "length": "00:00:28",
+                    "image": "naruto.jpg",
+                    "filename": "naruto.mp3"
+                },
+                {
+                    "id": 7,
+                    "name": "naruto flute",
+                    "singer": null,
+                    "lyricist": null,
+                    "movie": "naruto",
+                    "length": "00:00:29",
+                    "image": "naruto1.jpg",
+                    "filename": "naruto_flute.mp3"
+                },
+                {
+                    "id": 8,
+                    "name": "no game no life intro",
+                    "singer": null,
+                    "lyricist": null,
+                    "movie": "no game no life",
+                    "length": "00:00:26",
+                    "image": "no_game_no_life.jpg",
+                    "filename": "no_game_no_life.mp3"
+                },
+                {
+                    "id": 9,
+                    "name": "one piece theme",
+                    "singer": null,
+                    "lyricist": null,
+                    "movie": "one piece",
+                    "length": "00:00:26",
+                    "image": "one_piece.jpg",
+                    "filename": "one_piece.mp3"
+                },
+                {
+                    "id": 10,
+                    "name": "samurai champloon tune",
+                    "singer": null,
+                    "lyricist": null,
+                    "movie": "samurai champloo",
+                    "length": "00:00:14",
+                    "image": "samurai_champloon.jpg",
+                    "filename": "samurai_champloo.mp3"
+                },
+                {
+                    "id": 11,
+                    "name": "tokyo ghoul instrumental",
+                    "singer": null,
+                    "lyricist": null,
+                    "movie": "tokyo ghoul",
+                    "length": "00:00:29",
+                    "image": "kaneki.jpg",
+                    "filename": "tokyo_ghoul_instr.mp3"
+                },
+                {
+                    "id": 12,
+                    "name": "tuturu",
+                    "singer": null,
+                    "lyricist": null,
+                    "movie": "stiens gate",
+                    "length": "00:00:01",
+                    "image": "mayushii.jpeg",
+                    "filename": "tuturu_1.mp3"
+                }
+            ]
+        },
+        {
+            "name": "blues",
+            "images_path": "../data/images/blues/",
+            "file_path": "../data/songs/blues/",
+            "songs_count": 12,
+            "list": [{
+                    "id": 1,
+                    "name": null,
+                    "singer": null,
+                    "lyricist": null,
+                    "movie": null,
+                    "length": "00:00:30",
+                    "image": null,
+                    "filename": "blues.00000.mp3"
+                },
+                {
+                    "id": 2,
+                    "name": null,
+                    "singer": null,
+                    "lyricist": null,
+                    "movie": null,
+                    "length": "00:00:30",
+                    "image": null,
+                    "filename": "blues.00001.mp3"
+                },
+                {
+                    "id": 3,
+                    "name": null,
+                    "singer": null,
+                    "lyricist": null,
+                    "movie": null,
+                    "length": "00:00:30",
+                    "image": null,
+                    "filename": "blues.00002.mp3"
+                },
+                {
+                    "id": 4,
+                    "name": null,
+                    "singer": null,
+                    "lyricist": null,
+                    "movie": null,
+                    "length": "00:00:30",
+                    "image": null,
+                    "filename": "blues.00003.mp3"
+                },
+                {
+                    "id": 5,
+                    "name": null,
+                    "singer": null,
+                    "lyricist": null,
+                    "movie": null,
+                    "length": "00:00:30",
+                    "image": null,
+                    "filename": "blues.00004.mp3"
+                },
+                {
+                    "id": 6,
+                    "name": null,
+                    "singer": null,
+                    "lyricist": null,
+                    "movie": null,
+                    "length": "00:00:30",
+                    "image": null,
+                    "filename": "blues.00005.mp3"
+                },
+                {
+                    "id": 7,
+                    "name": null,
+                    "singer": null,
+                    "lyricist": null,
+                    "movie": null,
+                    "length": "00:00:30",
+                    "image": null,
+                    "filename": "blues.00006.mp3"
+                },
+                {
+                    "id": 8,
+                    "name": null,
+                    "singer": null,
+                    "lyricist": null,
+                    "movie": null,
+                    "length": "00:00:30",
+                    "image": null,
+                    "filename": "blues.00007.mp3"
+                },
+                {
+                    "id": 9,
+                    "name": null,
+                    "singer": null,
+                    "lyricist": null,
+                    "movie": null,
+                    "length": "00:00:30",
+                    "image": null,
+                    "filename": "blues.00008.mp3"
+                },
+                {
+                    "id": 10,
+                    "name": null,
+                    "singer": null,
+                    "lyricist": null,
+                    "movie": null,
+                    "length": "00:00:30",
+                    "image": null,
+                    "filename": "blues.00009.mp3"
+                },
+                {
+                    "id": 11,
+                    "name": null,
+                    "singer": null,
+                    "lyricist": null,
+                    "movie": null,
+                    "length": "00:00:30",
+                    "image": null,
+                    "filename": "blues.00010.mp3"
+                },
+                {
+                    "id": 12,
+                    "name": null,
+                    "singer": null,
+                    "lyricist": null,
+                    "movie": null,
+                    "length": "00:00:30",
+                    "image": null,
+                    "filename": "blues.00011.mp3"
+                }
+            ]
+        },
+        {
+            "name": "classical",
+            "images_path": "../data/images/classical/",
+            "file_path": "../data/songs/classical/",
+            "songs_count": 0,
+            "list": null
+        },
+        {
+            "name": "country",
+            "images_path": "../data/images/country/",
+            "file_path": "../data/songs/country/",
+            "songs_count": 0,
+            "list": null
+        },
+        {
+            "name": "disco",
+            "images_path": "../data/images/disco/",
+            "file_path": "../data/songs/disco/",
+            "songs_count": 0,
+            "list": null
+        },
+        {
+            "name": "hiphop",
+            "images_path": "../data/images/hiphop/",
+            "file_path": "data/songs/hiphop/",
+            "songs_count": 0,
+            "list": null
+        },
+        {
+            "name": "jazz",
+            "images_path": "../data/images/jazz/",
+            "file_path": "../data/songs/jazz/",
+            "songs_count": 0,
+            "list": null
+        },
+        {
+            "name": "metal",
+            "images_path": "../data/images/metal/",
+            "file_path": "data/songs/metal/",
+            "songs_count": 0,
+            "list": null
+        },
+        {
+            "name": "pop",
+            "images_path": "../data/images/pop/",
+            "file_path": "../data/songs/pop/",
+            "songs_count": 0,
+            "list": null
+        },
+        {
+            "name": "raggae",
+            "images_path": "../data/images/raggae/",
+            "file_path": "../data/songs/raggae/",
+            "songs_count": 0,
+            "list": null
+        },
+        {
+            "name": "rock",
+            "images_path": "../data/images/rock/",
+            "file_path": "../data/songs/rock/",
+            "songs_count": 0,
+            "list": null
+        }
+    ]
+}
